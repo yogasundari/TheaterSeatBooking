@@ -1,0 +1,45 @@
+.seating-chart{
+    margin-top: 100px;
+    padding:100px;
+    display: grid;
+    grid-template-columns: repeat(3,50px);
+    column-gap:10px;
+    row-gap: 10px;
+    justify-content:center;
+}
+.seat{
+    width:50px;
+    height:50px;
+    border:2px solid black;
+    text-align:center;
+    cursor:pointer;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.booked{
+    background-color: blueviolet;
+    cursor:not-allowed;
+    color:blanchedalmond;
+}
+.available{
+    background-color: aqua;
+}
+.select-button{
+    width: 200px;      
+    margin: 0 auto; 
+    padding:10px;
+    margin-left:650px;
+    font-size: 16px;
+    background-color: chartreuse;
+    color: black;
+    border:none;
+    align-items: center;
+    cursor:pointer;
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    margin-top: 20px;
+
+
+}
